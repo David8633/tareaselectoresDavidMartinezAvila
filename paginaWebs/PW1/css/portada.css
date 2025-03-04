@@ -1,0 +1,140 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+/*header*/
+nav {
+    background-color: gray;
+    padding: 20px;
+   /* display:flex;*/
+    /*activar el flex*/ 
+    /*flex-direction: row;
+    align-items: center;te lo alinea en vertical*/
+    /*para que este centrado y alineado*/
+
+}
+
+nav a{
+    margin-left:12px;
+    color: black;
+    align-items:center;
+    text-decoration: none;
+    /*Para quitar el subrayado y el punto negro de las listas*/
+    font-size: 20px;
+    /*justify-content: space-around;*/
+  
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: px; /* Ajusta la altura según necesites */
+    background-color: gray;
+    
+}
+
+.logo{
+    width: 70px; /* Ajusta el tamaño del logo */
+}
+
+
+/*carrusel*/
+.carousel{
+    padding:0% ;
+ 
+    margin-bottom: 20%;
+    width: auto;
+    height:auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*main*/
+.g1,.g2 {
+    margin-left: 20px;
+    margin-right:20px;
+    display: flex;
+     /* Separa los elementos */
+    gap: 1cm; /* Espaciado entre los dos coches */
+    align-items: center; /* Alinea verticalmente */
+    margin-bottom: 60px;
+}
+
+img{
+    width: 100%;
+}
+
+.containt h1{
+    position: absolute;
+      top: 50%;  /* Centra el texto verticalmente */
+      left: 50%;  /* Centra el texto horizontalmente */
+      transform: translate(-50%, -50%);  /* Ajusta la posición para centrar exactamente */
+      color: rgba(65, 51, 51, 0.829);  /* Cambia el color del texto */
+      font-size: 2rem;  /* Tamaño del texto */
+      font-weight: bold;  /* Estilo de fuente */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main{
+    margin-top: 40px;
+    padding: 50px;
+}
+
+.coche1, .coche2{
+
+    margin: auto;
+    width: 25%;
+    background-color: rgb(202, 202, 202);
+    overflow: hidden; /* Evita que el texto desborde */
+    word-wrap: break-word; /* Rompe palabras largas */
+    padding: 10px; /* Añade espacio interno */
+    
+}
+
+.coches{
+    color: black;
+    align-content: center;
+}
+
+.coche1 p,a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/*footer*/
+.pie{
+    background-color: gray;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.lista{
+    
+    background-color: gray;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+
